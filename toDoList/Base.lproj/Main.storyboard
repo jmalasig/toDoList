@@ -56,16 +56,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF9-OG-HGg">
-                                <rect key="frame" x="186" y="172" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF9-OG-HGg">
+                                <rect key="frame" x="186" y="188" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ8-PP-tpj">
-                                <rect key="frame" x="176" y="295" width="67" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ8-PP-tpj">
+                                <rect key="frame" x="173.5" y="229" width="67" height="30"/>
                                 <state key="normal" title="Complete"/>
                                 <connections>
                                     <action selector="completeTapped:" destination="uU1-Ye-J6Z" eventType="touchUpInside" id="9uI-fF-D7v"/>
@@ -73,6 +71,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YZ8-PP-tpj" firstAttribute="centerX" secondItem="4xN-Y7-WKU" secondAttribute="centerX" id="2v1-mR-g4U"/>
+                            <constraint firstItem="YZ8-PP-tpj" firstAttribute="centerX" secondItem="cF9-OG-HGg" secondAttribute="centerX" id="4jE-GY-hbt"/>
+                            <constraint firstItem="cF9-OG-HGg" firstAttribute="centerX" secondItem="4xN-Y7-WKU" secondAttribute="centerX" id="7ok-GL-OBj"/>
+                            <constraint firstItem="cF9-OG-HGg" firstAttribute="top" secondItem="KUe-ii-S8c" secondAttribute="top" constant="100" id="EaI-KN-PAb"/>
+                            <constraint firstItem="YZ8-PP-tpj" firstAttribute="top" secondItem="cF9-OG-HGg" secondAttribute="bottom" constant="20" id="SRj-JG-r0r"/>
+                            <constraint firstItem="cF9-OG-HGg" firstAttribute="centerX" secondItem="KUe-ii-S8c" secondAttribute="centerX" id="acu-C2-dTs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KUe-ii-S8c"/>
                     </view>
                     <connections>
