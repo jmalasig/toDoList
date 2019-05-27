@@ -14,6 +14,7 @@
 		18F6ED9C229B6B3500D8B5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F6ED9A229B6B3500D8B5EA /* LaunchScreen.storyboard */; };
 		18F6EDA6229B7AC600D8B5EA /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6EDA5229B7AC600D8B5EA /* ToDoTableViewController.swift */; };
 		18F6EDA8229B7C9500D8B5EA /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6EDA7229B7C9500D8B5EA /* ToDo.swift */; };
+		18F6EDAE229B96C900D8B5EA /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6EDAD229B96C900D8B5EA /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18F6ED9D229B6B3500D8B5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F6EDA5229B7AC600D8B5EA /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		18F6EDA7229B7C9500D8B5EA /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		18F6EDAD229B96C900D8B5EA /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				18F6ED8E229B6B3400D8B5EA /* AppDelegate.swift */,
 				18F6ED92229B6B3400D8B5EA /* Main.storyboard */,
+				18F6EDAD229B96C900D8B5EA /* AddToDoViewController.swift */,
 				18F6EDA7229B7C9500D8B5EA /* ToDo.swift */,
 				18F6EDA5229B7AC600D8B5EA /* ToDoTableViewController.swift */,
 				18F6ED98229B6B3500D8B5EA /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				18F6ED97229B6B3400D8B5EA /* toDoList.xcdatamodeld in Sources */,
 				18F6EDA6229B7AC600D8B5EA /* ToDoTableViewController.swift in Sources */,
+				18F6EDAE229B96C900D8B5EA /* AddToDoViewController.swift in Sources */,
 				18F6ED8F229B6B3400D8B5EA /* AppDelegate.swift in Sources */,
 				18F6EDA8229B7C9500D8B5EA /* ToDo.swift in Sources */,
 			);
